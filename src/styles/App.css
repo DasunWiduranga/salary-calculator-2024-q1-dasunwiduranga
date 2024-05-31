@@ -1,0 +1,61 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.salary-form {
+  margin-bottom: 20px;
+}
+
+.salary-form div {
+  margin-bottom: 10px;
+}
+
+.salary-form label {
+  margin-right: 10px;
+}
+
+.salary-form input[type="text"],
+.salary-form input[type="number"] {
+  margin-right: 10px;
+}
+
+.salary-summary {
+  text-align: center;
+}
+
+.salary-summary h2 {
+  color: #333;
+}
+
+.salary-summary p {
+  margin: 5px 0;
+}
+
+.salary-summary h3 {
+  margin-top: 20px;
+  color: green;
+}
+
+.salary-summary button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.salary-summary button:hover {
+  background-color: darkred;
+}
